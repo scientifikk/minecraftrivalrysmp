@@ -1,0 +1,31 @@
+# === Vendetta System Config ===
+
+blood-debt:
+  # kills-on-same-player needed to reach each curse tier
+  tier-1-kills: 2
+  tier-2-kills: 4
+  tier-3-kills: 6
+  tier-1-duration-seconds: 300
+  tier-2-duration-seconds: 300
+  tier-3-duration-seconds: 300
+
+bounty:
+  min-amount: 100.0
+  confirm-radius: 5
+  # seconds hunter must stay sneaking + undetected within radius to confirm
+  confirm-hold-seconds: 5
+
+hardcore:
+  starting-lives: 3
+  # if true, frozen players go to spectator mode until revenge kill happens
+  use-spectator-freeze: true
+
+reckoning:
+  # day of week (MONDAY-SUNDAY) and hour (0-23, server time) it triggers
+  day: SUNDAY
+  hour: 20
+  arena-world: "reckoning_arena"
+  warning-seconds: 60
+
+legacy-book:
+  storage-file: "legacy.db"
