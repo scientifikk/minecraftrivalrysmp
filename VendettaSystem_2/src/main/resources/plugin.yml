@@ -1,0 +1,15 @@
+name: VendettaSystem
+version: '2.0.0'
+main: com.rivalrysmp.vendetta.VendettaPlugin
+api-version: '1.21'
+author: RivalrySMP
+description: Blood Debt curses, craftable Hardcore Lives, and Death Curses for Rivalry SMP
+softdepend: [floodgate]
+
+commands:
+  lives:
+    description: Check remaining hardcore lives, or reset a player (admin)
+    usage: /lives [player] | /lives reset <player>
+  streak:
+    description: Check a player's death curse losing streak / exile status
+    usage: /streak [player]
